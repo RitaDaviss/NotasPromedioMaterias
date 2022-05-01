@@ -10,12 +10,11 @@ public class Main {
         ArrayList<Nota> notasFis = new ArrayList<>() ;
 
         Nota n1 = new Nota(10);
-
         notasInf.add(new Nota(7));
         notasInf.add(new Nota(8));
         notasInf.add(n1);
 
-        Materia computacion = new Materia("Computacion");
+        Materia computacion = new Materia("Informatica");
 
         Materia fisica = new Materia("Fisica");
 
@@ -26,7 +25,7 @@ public class Main {
         matias.setNotasMaterias(new Materia("Informatica"), notasInf);
 
         //matias.obtenerPromedioTodasLasMaterias();
-        matias.obtenerPromUnaSolaMateria(fisica);
+        matias.obtenerPromUnaSolaMateria(computacion);
 
 
     }
